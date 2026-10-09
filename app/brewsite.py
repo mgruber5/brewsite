@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
-    return rt("home.html", user ="James Smith")
+    return rt("home.html", user ="Max Gruber")
 
 @app.route("/breweries")
 def Breweries():
